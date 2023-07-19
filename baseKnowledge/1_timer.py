@@ -11,7 +11,7 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            sys.exit
+            sys.exit()
         if event.type == pygame.KEYDOWN:
             button_press_time = pygame.time.get_ticks()
             screen.fill((255, 255, 255))
